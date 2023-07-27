@@ -1,0 +1,34 @@
+What is JSX?
+    JSX is an extension to the JavaScript language syntax which provides a way to structure component rendering using syntax familiar to many developers commonly used in React.
+
+Super powers of JSX?
+    JSX provides several superpowers that make it a powerful tool for building user interfaces in React and other libraries that support JSX. Some of the main superpowers of JSX include:
+
+    Declarative UI: JSX allows developers to describe the user interface in a declarative manner. This means that developers can state "what" they want the UI to look like, and the underlying React framework takes care of the "how" part to efficiently update the DOM.
+
+    Component-based architecture: JSX enables developers to create reusable components with their own logic and rendering capabilities. Components can be composed and nested to build complex UI structures, making the code more modular and maintainable.
+
+    JavaScript integration: JSX allows embedding JavaScript expressions and logic within curly braces {} directly in the markup. This makes it easy to use variables, functions, and conditional statements within the UI code.
+
+    HTML-like syntax: JSX syntax is similar to HTML, which makes it familiar to web developers. This simplicity and resemblance to HTML make it easy to learn and work with for those already familiar with front-end development.
+
+    Performance optimizations: JSX, when used with React, facilitates efficient updates to the DOM by leveraging the virtual DOM. React's reconciliation algorithm efficiently updates only the necessary parts of the DOM, reducing rendering overhead and improving performance.
+
+    Type safety with TypeScript: When using JSX with TypeScript, it enables type checking, providing static type safety for the components and props, catching potential errors early in the development process.
+
+    Extensibility: JSX is extensible, meaning you can define custom components and attributes that fit your application's needs. This flexibility allows you to create more powerful abstractions and DSLs (Domain-Specific Languages) to make your codebase more expressive and maintainable.
+
+    Interoperability: JSX is not limited to React and can be used with other libraries and frameworks that support JSX, providing a consistent and familiar way to define UI components across different projects and ecosystems.
+
+    Overall, JSX plays a crucial role in simplifying the process of building dynamic and interactive user interfaces for web applications, making it one of the key strengths of modern front-end development using libraries like React.
+
+Role of type attribute in script tag? What options can I use there?
+    <!-- For ECMAScript 5 -->
+    <script type="application/ecmascript" src="path/to/my-script.js"></script>
+
+    <!-- For ECMAScript 6 (ES6) -->
+    <script type="application/javascript" src="path/to/my-script.js"></script>
+
+    <!-- For VBScript (for Internet Explorer, not recommended for cross-browser compatibility) -->
+    <script type="text/vbscript" src="path/to/my-script.js"></script>
+
